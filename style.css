@@ -1,0 +1,100 @@
+/* Basic styling for the body */
+body {  
+    height: 100vh;
+    background-color: #FBE5E5;
+    color: #F72464;
+}
+
+/* Styling for the header section */
+header {
+    height: 70px;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+/* Styling for the introductory text */
+.preContainer p {
+    padding-top: 20px;
+    text-align: center;
+    margin: 5px 20px;
+    color: #d8325c;
+    font-family: "Sevillana", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2rem;
+}
+
+/* Container for the input fields and submit button */
+.container {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Styling for the boy's name input field */
+.container #boyName {
+    width: 70%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 3px solid #FF5580;
+    margin: 20px 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    outline: none;
+}
+
+/* Styling for the girl's name input field */
+.container #grilName {
+    width: 70%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 3px solid #FF5580;
+    margin: 20px 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    outline: none;
+    position: relative;
+    top: 20px;
+}
+
+/* Styling for the submit button */
+.container #submitBtn {
+    position: relative;
+    top: 50px;
+    display: block;
+    margin: auto;
+    padding: 8px 30px;
+    border: 2px solid #B70404;
+    border-radius: 50px;
+    font-size: 1.1rem;
+    font-weight: 700;
+    background-color: #FF9898;
+    color: #ffffff;
+}
+
+/* Container for displaying results */
+#resultContainer {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+/* Styling for the combined name result */
+#resultContainer h1 {
+    color: #F70776;
+}
+
+/* Styling for the random percentage result */
+#resultContainer h3 {
+    margin-top: 10px;
+    color: #fa0000;
+    font-size: 4rem;
+}
+
+/* Styling for error messages */
+.error {
+    color: red;
+    font-size: 2.3em;
+    text-decoration: line-through;
+}
