@@ -20,14 +20,14 @@ document.getElementById("submitBtn").addEventListener("click", function() {
     
     else if (!boyName) {
         let errorElement = document.createElement("h5");
-        errorElement.innerText = "Please enter the boy's name!";
+        errorElement.innerText = "Please enter the Heart 1 name!";
         resultContainer.appendChild(errorElement);
         errorElement.className = "error";
     } 
     
     else if (!grilName) {
         let errorElement = document.createElement("h5");
-        errorElement.innerText = "Please enter the girl's name!";
+        errorElement.innerText = "Please enter the Heart 2 name!";
         resultContainer.appendChild(errorElement);
         errorElement.className = "error";
     }
